@@ -22,11 +22,12 @@ public class ConsultaTipoDeCambio {
         try {
             response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
+            return new Gson().fromJson(response.body(), TipoDeCambio.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        return new Gson().fromJson(response.body(), TipoDeCambio.class);
+
     }
 }
