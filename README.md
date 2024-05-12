@@ -1,8 +1,9 @@
 <H1 align="center">CONVERSOR DE MONEDAS<H1>
- <p align="left" id="Estado-del-proyecto">
+ <div id="Estado-del-proyecto">
+ <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
-
+ </div>
 <H2 align="left" id="descripción-del-proyecto">DESCRIPCION DEL PROYECTO<H2>
 <p align="left">
    Proyecto desarrollado como desafio por parte de los cursos de alura, es un sistema para la conversion de monedas enfocado en la moneda mexicana con otros 3 tipos de cambio
