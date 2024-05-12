@@ -12,7 +12,7 @@ public class GenerarHistorialDeConversiones {
 
         LocalDateTime fecha = LocalDateTime.now();
 
-        FileWriter escritura = new FileWriter("Historial-De-Conversiones.json",true);
+        FileWriter escritura = new FileWriter("Historial-De-Conversiones.txt",true);
         escritura.write("Modena Inicial: "+ monedaInicialCantidad +" "+ monedaInicial+"\n");
         escritura.write("Conversion: "+ monedaFinalCantidad +" "+ monedaFinal+"\n");
         escritura.write("Fecha De Conversion: " + fecha.getDayOfMonth() + " de "
@@ -23,7 +23,7 @@ public class GenerarHistorialDeConversiones {
     public void mostrarHistorial()
     {
         try {
-            FileReader lectura = new FileReader("Historial-De-Conversiones.json");
+            FileReader lectura = new FileReader("Historial-De-Conversiones.txt");
             BufferedReader br = new BufferedReader(lectura);
             String linea;
             System.out.println("HISTORIAL DE CONVERSIONES");
