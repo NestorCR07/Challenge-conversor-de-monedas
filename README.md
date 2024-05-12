@@ -1,5 +1,5 @@
 <H1 align="center">CONVERSOR DE MONEDAS<H1>
- <p align="left">
+ <p align="left" id="Estado-del-proyecto">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
@@ -26,10 +26,8 @@
 
 6- [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
-7- [Licencia](#licencia)
 
-
-<H4 align="left">CARACTERISTICAS DE APLICACION<H4>
+<H4 align="left" id="Características-de-la-aplicación-y-demostración">CARACTERISTICAS DE APLICACION<H4>
 
 - `Funcionalidad 1`: CONVERSION DE PESO MEXICANO A DOLAR.
 - `Funcionalidad 2`: CONVERSION DE DOLAR A PESO MEXICANO.
@@ -38,17 +36,17 @@
 - `Funcionalidad 5`: CONVERSION DE PESO MEXICANO A YEN.
 - `Funcionalidad 6`: CONVERSION DE YEN A PESO MEXICANO.
 
-<H5 align="left">ACCESO AL PROYECTO<H5>
+<H5 align="left" id="acceso-proyecto">ACCESO AL PROYECTO<H5>
 <p>
  Puede acceder al proyecto y descargarlo desde mi repositorio en GITHUB.
 </p>
 <link>https://github.com/NestorCR07/Challenge-conversor-de-monedas.git</link>
 
-<H6 align="left">TECNOLOGIAS UTILIZADAS<H6>
+<H6 align="left" id="tecnologías-utilizadas">TECNOLOGIAS UTILIZADAS<H6>
 
 - `JAVA 21`
 - `IntelliJ`
 
-<H7 align="left">PERSONAS DESARROLLADORAS DEL PROYECTO<H7>
+<H7 align="left" id="personas-desarrolladores">PERSONAS DESARROLLADORAS DEL PROYECTO<H7>
 
 [<img src="https://avatars2.githubusercontent.com/u/91089582" width=115><br><sub>Nestor Carrasco</sub>](https://github.com/NestorCR07)
