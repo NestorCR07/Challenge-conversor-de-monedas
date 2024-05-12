@@ -2,6 +2,7 @@ package com.aluracursos.conversordemonedas.principal;
 
 import com.aluracursos.conversordemonedas.modulos.ConsultaTipoDeCambio;
 import com.aluracursos.conversordemonedas.modulos.GenerarConversion;
+import com.aluracursos.conversordemonedas.modulos.GenerarHistorialDeConversiones;
 import com.aluracursos.conversordemonedas.modulos.TipoDeCambio;
 
 import java.io.IOException;
@@ -18,7 +19,8 @@ public class Principal {
         4- EURO A PESO MEXICANO.
         5- PESO MEXICANO A YEN JAPONES.
         6- YEN JAPONES A PESO MEXICANO.
-        7- SALIR.
+        7- HISTORIAL DE CONVERSIONES.
+        8- SALIR.
         """;
         String moneda;
         String cambioAMoneda;
@@ -26,8 +28,9 @@ public class Principal {
         int opcion = 0;
         Scanner teclado = new Scanner(System.in);
         GenerarConversion generarConversion = new GenerarConversion();
+        GenerarHistorialDeConversiones historial = new GenerarHistorialDeConversiones();
 
-        while(opcion != 7)
+        while(opcion != 8)
         {
             try {
                 System.out.println(menu);
@@ -64,15 +67,14 @@ public class Principal {
                         cambioAMoneda = "MXN";
                         generarConversion = new GenerarConversion();
                         generarConversion.conversionATipoDeCambio(moneda,cambioAMoneda);
-                        break;
-                    default:
-                        System.out.println("Opcion no valida");
+                    case 7:
+                            historial.mostrarHistorial();
                         break;
             }
             }catch (NumberFormatException e)
             {
                 System.out.println("Formato de opcion no valida " + e.getMessage());
-            } catch (RuntimeException e) {
+            } catch (RuntimeException | IOException e) {
                 System.out.println(e.getMessage());
                 System.out.println("Ocurrio un error intente nuevamente");
             }
