@@ -10,7 +10,7 @@
   Dolar, Euro y Yen Japones.
 </p>
 <p align="left">
-  El sistema permite seleccionar el tipo de cambio que el usuario requiere realizar entre convertir el peso mexicano a los otros tipos de cambio o viceversa.
+  El sistema permite seleccionar el tipo de cambio que el usuario requiere realizar entre convertir el peso mexicano a los otros tipos de cambio o viceversa,ademas de mostrar todas las conversiones que se han hecho.
 </p>
 
 <H3 align="left">ÍNDICE<H3>
@@ -36,6 +36,7 @@
 - `Funcionalidad 4`: CONVERSION DE EURO A PESO MEXICANO.
 - `Funcionalidad 5`: CONVERSION DE PESO MEXICANO A YEN.
 - `Funcionalidad 6`: CONVERSION DE YEN A PESO MEXICANO.
+- `Funcionalidad 7`: MOSTRAR HISTORIAL DE CONVERSIONES.
 
 <H5 align="left" id="acceso-proyecto">ACCESO AL PROYECTO<H5>
 <p>
