@@ -14,25 +14,22 @@
 
 <H3 align="left">ÍNDICE<H3>
   
-1- [Descripción del proyecto](#descripción-del-proyecto)
+1- [Estado del proyecto](#Estado-del-proyecto)
 
-2- [Estado del proyecto](#Estado-del-proyecto)
+2- [Descripción del proyecto](#descripción-del-proyecto)
 
-3- [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+3- [Características de la aplicación](#Características-de-la-aplicación-y-demostración)
 
 4- [Acceso al proyecto](#acceso-proyecto)
 
 5- [Tecnologías utilizadas](#tecnologías-utilizadas)
 
-6- [Personas Contribuyentes](#personas-contribuyentes)
+6- [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
-7- [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+7- [Licencia](#licencia)
 
-8- [Licencia](#licencia)
 
-9- [Conclusión](#conclusión)
-
-<H4 align="left">FUNCIONALIDADES DEL PROYECTO<H4>
+<H4 align="left">CARACTERISTICAS DE APLICACION<H4>
 
 - `Funcionalidad 1`: CONVERSION DE PESO MEXICANO A DOLAR.
 - `Funcionalidad 2`: CONVERSION DE DOLAR A PESO MEXICANO.
@@ -41,7 +38,17 @@
 - `Funcionalidad 5`: CONVERSION DE PESO MEXICANO A YEN.
 - `Funcionalidad 6`: CONVERSION DE YEN A PESO MEXICANO.
 
-<H5 align="left">TECNOLOGIAS UTILIZADAS<H5>
+<H5 align="left">ACCESO AL PROYECTO<H5>
+<p>
+ Puede acceder al proyecto y descargarlo desde mi repositorio en GITHUB.
+</p>
+<link>https://github.com/NestorCR07/Challenge-conversor-de-monedas.git</link>
+
+<H6 align="left">TECNOLOGIAS UTILIZADAS<H6>
 
 - `JAVA 21`
 - `IntelliJ`
+
+<H7 align="left">PERSONAS DESARROLLADORAS DEL PROYECTO<H7>
+
+[<img src="https://avatars2.githubusercontent.com/u/91089582" width=115><br><sub>Nestor Carrasco</sub>](https://github.com/NestorCR07)
